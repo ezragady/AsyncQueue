@@ -5,6 +5,7 @@ const exampleFunction = (first, second) => {
     return new Promise((resolve,reject) => {
         if (first === 'reject') return reject('reject');
         setTimeout(() => {
+            console.info(`Done: (${first},${second})`);
             resolve('done');
         },1000);
     });

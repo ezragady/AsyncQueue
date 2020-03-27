@@ -7,7 +7,7 @@ AsyncQueue is a simple NodeJS Module for running asynchronous functions in a ser
 Use the npm package manager to install AsyncQueue.
 
 ```bash
-npm install nodejs-async-queue
+npm install nodejs-async-queue --save
 ```
 
 ## Usage
