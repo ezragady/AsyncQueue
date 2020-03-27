@@ -13,7 +13,7 @@ npm install nodejs-async-queue --save
 ## Usage
 
 ```nodejs
-const AsyncQueue = require('async-queue');
+const AsyncQueue = require('nodejs-async-queue');
 const asyncQueue = new AsyncQueue(YourFunction);
 asyncQueue.add('foo','bar') // adds YourFunction('foo','bar') to queue
 asyncQueue.list() // returns the queue list

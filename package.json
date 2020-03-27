@@ -1,14 +1,14 @@
 {
   "name": "nodejs-async-queue",
-  "version": "1.0.2",
-  "description": "",
+  "version": "1.0.4",
+  "description": "AsyncQueue is a simple NodeJS Module for running asynchronous functions in a series using a queue structure",
   "main": "AsyncQueue.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "mocha": "^7.1.1"
   },
